@@ -2,34 +2,113 @@
 
 <html>
     <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="utf-8">
-        <title>Restaurant review</title>
+        <title>Review of Gabby&rsquo;s Peruvian Restaurant</title>
         <style>
-            /*styling*/
+            body {
+                background-color: bisque;
+                text-align: center;
+                align-items: center;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            dl,
+            dd {
+                color: black;
+            }
+
+            img {
+                width: auto;
+                height: auto;
+                margin-top: 10px;
+            }
+            p {
+                margin-left: auto;
+                margin-right: auto;
+                color: darkslategray;
+                width: 50%;
+                text-align: center;
+            }
+            .link{
+                margin-right: auto;
+                text-align: left;
+            }
+            .copyright {
+                text-align: right;
+                margin: 0em;
+                width: auto;
+            }
+
+            .checked{
+                color: orange;
+            }
+
+            #dining{
+                margin-left: 10px;
+                margin-right: 10px;
+                width: 30%;
+                height: auto;
+            }
 
         </style>
     </head>
 
     <body>
         <header>
-
+            <h1>Review of Gabby&rsquo;s Peruvian Restaurant</h1>
         </header>
 
         <main>
+            <img src="../images/gabbys.jpg" id="dining">
+            <p>
+                Gabby's has been around for a year or two. My wife and I have eaten here several times,
+                and the food is always great! The first time I ate there I got the Lomo soltado.
+                This was essentially beef stir-fry, and it was wonderful! 
+                The next visit I ordered a Chicharron sandwich. This was
+                a fried pork tenderloin sandwich with fried sweet potatoes on it!
+                Very interesing, and very good! On this same visit my wife ordered the House Tilapia.
+                <br><br>
+                <strong>TLDR; Gabby's is worth a visit if you enjoy South American cuisine.</strong>
+            </p>
+            <dl>
+                <dt>More information about Gabby's</dt>
+                    <dd>Click <a href="https://gabbyscateringwichita.com/menu">here</a> to visit the website</dd>
+                    <dd>Click <a href="https://www.facebook.com/gabbys1218/">here</a> the facebook page</a></dd>
+                    
+            </dl>
+
+            <h4>The Lomo Saltado</h4>
+            <img src="../images/lomo.jpg" alt="the lomo saltado with french fries">
+
+            <h4>Brief Review</h4>
+                <p>
+                    While you wouldn't expect it from the location, Gabby's has a great atmosphere! 
+                    The dining area is clean, homey, with great Peruvian artwork.
+                    The service has been good every time we have eaten here.
+                    The food is outstanding, as I have already mentioned. 
+                    
+                </p>
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
             <!--Things needed:
-                1. page name<h1>
-                2. page description <p>
-                3. a photo of restaurant meal (saved in images folder)
                 4. short restaurant review
-                5. link back to index page
-                6. copyright info <p>
                 7. Link to restaurant website or facebook page (opens in a new window)
             
                  -->
         </main>
         <!-- content -->
         <footer>
-
+            <p class="link"><a href="../tastytreats/treats.html" target="_blank">&#91;Back to Top Three Tasty Treats&#93;</a></p>
+            <p class="link"><a href="../portfolio/index.html" target="_blank">&#91;Back to homepage&#93;</a></p>
+            <p class="copyright"><small>site By Matthew Drummond. Copyright&copy; 2017-2020 All Rights Reserved</small></p>
         </footer>
         
     </body>
