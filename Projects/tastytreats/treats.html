@@ -5,28 +5,71 @@
         <meta charset="utf-8">
         <title>3 Tasty Treats</title>
         <style>
-            /*styling*/
+            body {
+                background-color: bisque;
+                text-align: center;
+                align-items: center;
+            }
+            h1,
+            h2,
+            blockquote,
+            dl {
+                color: black;
+            }
 
+            p {
+                margin-left: auto;
+                margin-right: auto;
+                color: darkslategray;
+                width: 50%;
+                text-align: center;
+            }
+
+            .copyright {
+                text-align: right;
+                margin: 0em;
+                width: auto;
+            }
+            
+            .treat {
+                text-align: left;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
         </style>
     </head>
 
     <body>
         <header>
-
+            <img src="../images/Treats.jpg" alt="A smorgasbord of good looking food!">
+            <h1>Three Tasty Treats!</h1>
         </header>
 
         <main>
-            <!--Things needed:
-                1. page name<h1>
-                2. page description <p>
-                3. list of three treats <ul>
-                4. link back to index page
-                5. copyright info <p>
-                6. -->
-        </main>
-        <!-- content -->
-        <footer>
+            
+            <p>Since I started my (now former) job as cook at nursing home cook I have become much more interested
+                in consuming food. Whether that is through a recipe or picking something up from the grocery store or a restaurant.
+                Here I've included some of my favorite foods to brighten your day and sate your appetite&#33;
+                <br>
+                I have included a recipe if you&rsquo;re in the cooking mood.
+                Otherwise I have a premade treat that you can just pick up and enjoy.
+                Or if you&rsquo;re ready for a night on the town I've included a review of my favorite food from a local restaurant!
+                <em>Bon Appetite!</em>
+            </p>
 
+            <ul>
+                <li class="treat"><a href="recipe.html">Dirt Cake</a></li>
+                <li class="treat"><a href="packaged.html">Aldi granola bars</a></li>
+                <li class="treat"><a href="restaurant.html">Gabby's Peruvian Restaurant &amp; Catering</a></li>
+            </ul>
+
+            <p><a href="../portfolio/index.html">&#91;Back to homepage&#93;</a></p>
+          
+        </main>
+        
+        <footer>
+            <p class="copyright"><small>site By Matthew Drummond. Copyright&copy; 2017-2020 All Rights Reserved</small></p>
         </footer>
         
     </body>
