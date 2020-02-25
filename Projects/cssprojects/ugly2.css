@@ -17,3 +17,8 @@ body{
     color: #A2C357;
     text-decoration: overline;
   }
+  .copyright {
+    text-align: right;
+    margin: 0em;
+    width: auto;
+}
