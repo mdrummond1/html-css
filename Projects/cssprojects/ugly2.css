@@ -1,0 +1,19 @@
+body{
+    background-color: #f0A4D5;
+    width: 75%;
+    margin: auto auto auto auto;
+  }
+
+  header{
+    background-image: url(../images/head.jfif);
+    height: 100px;
+  }
+  a{
+    color: #67D2F9;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #A2C357;
+    text-decoration: overline;
+  }
