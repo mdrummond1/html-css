@@ -63,6 +63,7 @@ body {
 
 dt a{
     text-decoration: none;
+    color: slateblue;
 }
 dt a:hover{
     color: silver;
