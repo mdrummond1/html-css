@@ -1,3 +1,4 @@
+
 header{
     background-color: aliceblue;
 }
@@ -14,14 +15,19 @@ footer{
     align-items: center;
 }
 
-h1,
-h2,
-blockquote,
-dl {
+main h1,
+main h2,
+main blockquote,
+main dl {
     color: black;
 }
 
-p {
+main h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: .2em;
+}
+
+main p {
     margin-left: auto;
     margin-right: auto;
     color: darkslategray;
@@ -39,9 +45,11 @@ img {
     text-align: right;
     margin: 0em;
     width: auto;
+    color:black;
+    background-color: bisque;
 }
 
-dl {
+main dl {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -51,4 +59,15 @@ body {
     background-color: bisque;
     text-align: center;
     align-items: center;
+}
+
+dt a{
+    text-decoration: none;
+}
+dt a:hover{
+    color: silver;
+    text-decoration: underline;
+}
+dt a:visited{
+    color: slategrey;
 }
