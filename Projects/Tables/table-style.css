@@ -46,7 +46,7 @@
     border-bottom: none; 
 }
 div{
-    width :50%;
+    width :100%;
     margin: auto;
     margin-top: 10%;
 }
@@ -59,4 +59,9 @@ body {
     text-align: right;
     margin: 0em;
     width: auto;
+}
+caption{
+    color:#FFFFFF; 
+    font-size: large;
+    background-color:#36752D; 
 }
