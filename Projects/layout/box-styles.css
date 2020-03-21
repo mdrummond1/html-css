@@ -1,0 +1,23 @@
+h1{
+    border: 1px solid red;
+    background-color: #d18c1d;
+    padding: 10px;
+}
+li{
+    margin: 15px;
+    background-color: #c0a9db;
+}
+p{
+    padding: 600px 400px;
+    background-color: #d1d631;
+    border: 2px dotted black;
+}
+a{
+    border-bottom: 3px dashed blue;
+    background-color: #a1a1a1;
+}
+footer p, footer a{
+    background-color: black;
+    padding: 1px;
+    border: none;
+}
